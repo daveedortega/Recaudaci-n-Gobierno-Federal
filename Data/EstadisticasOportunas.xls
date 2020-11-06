@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ss:Workbook xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel">
+<o:DocumentProperties>
+<o:Title>[object Object]</o:Title>
+</o:DocumentProperties>
+<ss:ExcelWorkbook>
+<ss:WindowHeight>9000</ss:WindowHeight>
+<ss:WindowWidth>27050</ss:WindowWidth>
+<ss:ProtectStructure>False</ss:ProtectStructure>
+<ss:ProtectWindows>False</ss:ProtectWindows>
+</ss:ExcelWorkbook>
+<ss:Styles>
+<ss:Style ss:ID="stylecomment">
+<ss:Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+<ss:Borders>
+<ss:Border ss:Color="#FFFFFF" ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+<ss:Border ss:Color="#FFFFFF" ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+<ss:Border ss:Color="#FFFFFF" ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+<ss:Border ss:Color="#FFFFFF" ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+</ss:Borders>
+<ss:Font ss:Bold="1" ss:Size="8"/>
+<ss:Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+</ss:Style>
+<ss:Style ss:ID="notas">
+<ss:Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+<ss:Borders>
+<ss:Border ss:Color="#FFFFFF" ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+<ss:Border ss:Color="#FFFFFF" ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+<ss:Border ss:Color="#FFFFFF" ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+<ss:Border ss:Color="#FFFFFF" ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+</ss:Borders>
+<ss:Font ss:Size="9"/>
+<ss:Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<NumberFormat/>
+<Protection/>
+</ss:Style>
+<ss:Style ss:ID="Default">
+<ss:Alignment ss:Vertical="Top" ss:WrapText="0"/>
+<ss:Font ss:FontName="arial" ss:Size="9"/>
+<ss:Borders>
+<ss:Border ss:Color="#e4e4e4" ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+<ss:Border ss:Color="#e4e4e4" ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+<ss:Border ss:Color="#e4e4e4" ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+<ss:Border ss:Color="#e4e4e4" ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+</ss:Borders>
+<ss:Interior/>
+<NumberFormat/>
+<ss:Protection/>
+</ss:Style>
+<ss:Style ss:ID="title">
+<ss:Borders/>
+<ss:Font/>
+<ss:Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+<ss:NumberFormat ss:Format="@"/>
+</ss:Style>
+<ss:Style ss:ID="headercell">
+<ss:Font ss:Bold="1" ss:Size="9"/>
+<ss:Alignment ss:Horizontal="Center" ss:WrapText="1"/>
+<ss:Interior ss:Color="#808080" ss:Pattern="Solid"/>
+</ss:Style>
+<ss:Style ss:ID="even">
+<ss:Alignment ss:Horizontal="Right" ss:Vertical="Top"/>
+<ss:Interior ss:Color="#DCDCDC" ss:Pattern="Solid"/>
+</ss:Style>
+<ss:Style ss:ID="evendate" ss:Parent="even">
+<ss:NumberFormat ss:Format="[ENG][$-409]dd-mmm-yyyy;@"/>
+</ss:Style>
+<ss:Style ss:ID="evenint" ss:Parent="even">
+<ss:NumberFormat ss:Format="0"/>
+</ss:Style>
+<ss:Style ss:ID="evenfloat" ss:Parent="even">
+<ss:NumberFormat ss:Format="#,##0.0"/>
+</ss:Style>
+<ss:Style ss:ID="odd">
+<ss:Alignment ss:Horizontal="Right" ss:Vertical="Top"/>
+<ss:Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+</ss:Style>
+<ss:Style ss:ID="odddate" ss:Parent="odd">
+<ss:NumberFormat ss:Format="[ENG][$-409]dd-mmm-yyyy;@"/>
+</ss:Style>
+<ss:Style ss:ID="oddint" ss:Parent="odd">
+<ss:NumberFormat ss:Format="0"/>
+</ss:Style>
+<ss:Style ss:ID="oddfloat" ss:Parent="odd">
+<ss:NumberFormat ss:Format="#,##0.0"/>
+</ss:Style>
+<ss:Style ss:ID="evenNivel_0" ss:Parent="even">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="0" ss:Vertical="Top"/>
+<ss:Font ss:Bold="1"/>
+</ss:Style>
+<ss:Style ss:ID="evenNivel_1" ss:Parent="even">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="1" ss:Vertical="Top"/>
+<ss:Font ss:Bold="1"/>
+</ss:Style>
+<ss:Style ss:ID="evenNivel_2" ss:Parent="even">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="2" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="evenNivel_3" ss:Parent="even">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="3" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="evenNivel_4" ss:Parent="even">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="4" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="evenNivel_5" ss:Parent="even">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="5" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="evenNivel_6" ss:Parent="even">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="6" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="evenNivel_7" ss:Parent="even">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="7" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="evenNivel_8" ss:Parent="even">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="8" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="evenNivel_9" ss:Parent="even">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="9" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="evenNivel_10" ss:Parent="even">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="10" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="oddNivel_0" ss:Parent="odd">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="0" ss:Vertical="Top"/>
+<ss:Font ss:Bold="1"/>
+</ss:Style>
+<ss:Style ss:ID="oddNivel_1" ss:Parent="odd">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="1" ss:Vertical="Top"/>
+<ss:Font ss:Bold="1"/>
+</ss:Style>
+<ss:Style ss:ID="oddNivel_2" ss:Parent="odd">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="2" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="oddNivel_3" ss:Parent="odd">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="3" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="oddNivel_4" ss:Parent="odd">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="4" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="oddNivel_5" ss:Parent="odd">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="5" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="oddNivel_6" ss:Parent="odd">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="6" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="oddNivel_7" ss:Parent="odd">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="7" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="oddNivel_8" ss:Parent="odd">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="8" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="oddNivel_9" ss:Parent="odd">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="9" ss:Vertical="Top"/>
+</ss:Style>
+<ss:Style ss:ID="oddNivel_10" ss:Parent="odd">
+<ss:Alignment ss:Horizontal="Left" ss:Indent="10" ss:Vertical="Top"/>
+</ss:Style>
+</ss:Styles>
+<ss:Worksheet ss:Name="SHCP">
+<ss:Names>
+<ss:NamedRange ss:Name="Print_Titles" ss:RefersTo="='SHCP'!R1:R2"/>
+</ss:Names>
+<x:WorksheetOptions>
+<x:PageSetup>
+<x:Layout x:CenterHorizontal="1" x:Orientation="Landscape"/>
+<x:Footer x:Data="Page &amp;P of &amp;N" x:Margin="0.5"/>
+<x:PageMargins x:Bottom="0.8" x:Left="0.5" x:Right="0.5" x:Top="0.5"/>
+</x:PageSetup>
+<x:FitToPage/>
+<x:Print>
+<x:PrintErrors>Blank</x:PrintErrors>
+<x:FitWidth>1</x:FitWidth>
+<x:FitHeight>32767</x:FitHeight>
+<x:ValidPrinterInfo/>
+<x:VerticalResolution>600</x:VerticalResolution>
+</x:Print>
+<x:Selected/>
+<x:DoNotDisplayGridlines/>
+<x:ProtectObjects>False</x:ProtectObjects>
+<x:ProtectScenarios>False</x:ProtectScenarios>
+</x:WorksheetOptions>
+<ss:Table ss:DefaultColumnWidth="50" ss:ExpandedColumnCount="9" ss:ExpandedRowCount="58" x:FullColumns="1" x:FullRows="1">
+<ss:Column ss:AutoFitWidth="1" ss:Width="300"/>
+<ss:Column ss:AutoFitWidth="1" ss:Width="100"/>
+<ss:Row ss:Height="50">
+<ss:Cell ss:MergeAcross="8" ss:StyleID="title">
+<ss:Data ss:Type="String">
+<html:B>
+<html:Font html:Size="15">Ingresos Presupuestarios del Gobierno Federal, Petroleros y No petroleros Pesos corrientes multianual <b> (2012-2019)</b>, Millones de pesos (Flujos Acumulados)&#13;</html:Font>
+</html:B>
+<Font html:Size="11">Consulta Actual: 4/11/2020</Font>
+</ss:Data>
+<ss:NamedCell ss:Name="Print_Titles"/>
+</ss:Cell>
+</ss:Row>
+<ss:Row ss:AutoFitHeight="1">
+<ss:Cell ss:MergeAcross="0" ss:MergeDown="1" ss:StyleID="headercell">
+<ss:Data ss:Type="String">
+<label class="fontStandard fontHeader">Concepto</label>
+</ss:Data>
+<ss:NamedCell ss:Name="Print_Titles"/>
+</ss:Cell>
+<ss:Cell ss:MergeAcross="7" ss:MergeDown="0" ss:StyleID="headercell">
+<ss:Data ss:Type="String">
+<label class="fontStandard fontHeader">Millones de pesos</label>
+</ss:Data>
+<ss:NamedCell ss:Name="Print_Titles"/>
+</ss:Cell>
+</ss:Row>
+<ss:Row ss:AutoFitHeight="0">
+<ss:Cell ss:Index="2" ss:StyleID="headercell">
+<ss:Data ss:Type="String">
+<label class="fontStandard">2012</label>
+</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="headercell">
+<ss:Data ss:Type="String">
+<label class="fontStandard">2013</label>
+</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="headercell">
+<ss:Data ss:Type="String">
+<label class="fontStandard">2014</label>
+</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="headercell">
+<ss:Data ss:Type="String">
+<label class="fontStandard">2015</label>
+</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="headercell">
+<ss:Data ss:Type="String">
+<label class="fontStandard">2016</label>
+</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="headercell">
+<ss:Data ss:Type="String">
+<label class="fontStandard">2017</label>
+</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="headercell">
+<ss:Data ss:Type="String">
+<label class="fontStandard">2018</label>
+</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="headercell">
+<ss:Data ss:Type="String">
+<label class="fontStandard">2019</label>
+</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_1">
+<ss:Data ss:Type="String">Total</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">2452533.751</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">2703575.208</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">2888059.651</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">3180071.175</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">3571281.2346</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">3838070.2597</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">3871626.9017</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">4006080.0386</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_2">
+<ss:Data ss:Type="String">Petroleros	1_/ </ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">923285.11</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">861551.639</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">780414.421</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">414424.385</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">308141.57575</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">437346.25836</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">541747.22976</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">431922.77253</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_3">
+<ss:Data ss:Type="String">Transferencias del fondo mexicano del petr贸leo para la estabilizaci贸n y el desarrollo</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="even">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="even">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="even">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">398804.966</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">307920.44</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">442874.52828</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">541747.43116</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">431895.7594</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_3">
+<ss:Data ss:Type="String">ISR de contratistas y asignatarios</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="odd">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="odd">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="odd">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">5232</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">221.135749</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-5528.26992</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-.201411</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">27.013125</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_3">
+<ss:Data ss:Type="String">Hidrocarburos</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">923285.11</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">861551.639</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">780414.421</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">10387.42</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_3">
+<ss:Data ss:Type="String">Aprovechamiento sobre rendimientos excedentes</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_2">
+<ss:Data ss:Type="String">No petroleros</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">1529248.641</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">1842023.567</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">2107645.232</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">2765646.787</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">3263139.6587</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">3400724.0013</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">3329879.6718</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">3574157.266</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_3">
+<ss:Data ss:Type="String">Ingresos tributarios</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">1314439.59</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">1561751.563</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">1807813.752</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">2361233.594</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">2715997.9683</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">2855056.9415</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">3062334.2143</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">3202623.7082</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_4">
+<ss:Data ss:Type="String">ISR-IETU-IDE</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">803896.668</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">946740.332</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">959837.066</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">1217261.31</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">1420493.41452</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">1571378.2606</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">1664241.711</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">1686617.9538</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_5">
+<ss:Data ss:Type="String">Renta</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">758912.456</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">905523.485</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">985866.064</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">1232361.183</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">1425794.3258</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">1573765.762</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">1664552.0305</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">1687217.9764</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_5">
+<ss:Data ss:Type="String">Empresarial a tasa 煤nica</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">42198.751</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">47205.022</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">-13706.627</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">-11777.272</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">-4039.112352</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">-1648.435607</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">318.548385</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">-195.249803</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_5">
+<ss:Data ss:Type="String">Impuestos a los dep贸sitos en efectivo</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">2785.461</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-5988.176</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-12322.376</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-3322.602</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-1261.798806</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-739.065786</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-628.867938</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-404.772695</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_4">
+<ss:Data ss:Type="String">Valor agregado</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">579987.467</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">556793.891</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">667085.053</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">707212.835</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">791700.24338</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">816048.11471</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">922238.28892</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">933326.76577</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_4">
+<ss:Data ss:Type="String">Producci贸n y servicios</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-130131.407</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-7423.771</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">111646.771</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">354293.503</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">411389.61871</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">367834.27724</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">347435.48612</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">460495.58692</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_5">
+<ss:Data ss:Type="String">Gasolina y diesel</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">-203084.307</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">-85996.202</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">-12846.83</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">220091.059</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">277263.94557</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">216498.69121</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">187666.01342</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">297478.92975</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_6">
+<ss:Data ss:Type="String">Federal</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-222751.391</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-105283.481</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">-37690.39</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">193763.852</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">250921.38894</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">190030.89837</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">160123.865265</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">268923.85835</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_6">
+<ss:Data ss:Type="String">Estatal</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">19667.085</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">19287.279</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">24843.561</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">26327.209</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">26342.556628</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">26467.792853</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">27542.14815</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">28555.07139</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_5">
+<ss:Data ss:Type="String">IEPS otros</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">72952.9</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">78572.431</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">124493.602</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">134202.445</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">134125.67414</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">151335.586024</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">159769.4727</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">163016.65716</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_6">
+<ss:Data ss:Type="String">Tabacos labrados</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">33426.146</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">34192.84</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">34531.92</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">36890.586</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">38097.122081</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">39123.577181</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">41451.766499</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">42484.135018</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_6">
+<ss:Data ss:Type="String">Bebidas alcoh贸licas</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">9398.3</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">10760.611</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">10285.31</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">13300.8</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">14315.194332</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">14958.231373</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">15958.301302</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">15509.847639</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_6">
+<ss:Data ss:Type="String">Cerveza y bebidas refrescantes</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">21835.016</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">23708.705</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">28147.828</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">29713.076</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">31887.596482</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">35007.74648</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">37646.043701</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">41851.475375</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_6">
+<ss:Data ss:Type="String">Juegos con apuestas  y sorteos</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">2138.127</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">2265.635</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">2306.624</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">2123.088</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">2559.767349</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">2741.417977</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">3163.000812</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">2710.305748</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_6">
+<ss:Data ss:Type="String">Redes p煤blicas de telecomunicaciones</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">6085.576</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">7620.748</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">7220.221</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">6591.412</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">5890.437253</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">5752.081729</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">5866.29371</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">5937.338531</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_6">
+<ss:Data ss:Type="String">Bebidas energetizantes</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">69.74</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">23.893</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">26.968</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">9.93659</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">4.185526</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">7.874472</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">8.015463</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">20.231155</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_6">
+<ss:Data ss:Type="String">Bebidas saborizadas</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="even">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="even">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">18279.671</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">21391.913</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">23348.717204</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">23162.891589</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">25908.202038</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">27240.052568</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_6">
+<ss:Data ss:Type="String">Alimentos no b谩sicos con alta densidad cal贸rica</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="odd">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="odd">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">13666.098</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">15926.189</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">16929.516434</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">18339.356285</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">23112.01054</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">21422.151046</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_6">
+<ss:Data ss:Type="String">Plaguicidas</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="even">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="even">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">358.613</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">606.932</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">647.243826</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">705.24269</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">775.061906</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">687.916054</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_6">
+<ss:Data ss:Type="String">Carbono	2_/ </ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="odd">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="odd">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">9670.35</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">7648.512</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">445.89374</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">11537.166052</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">5880.77673</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">5153.204032</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_6">
+<ss:Data ss:Type="String">Aguas, refrescos y sus concent.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_6">
+<ss:Data ss:Type="String">Otros</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_4">
+<ss:Data ss:Type="String">Importaci贸n</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">27906.059</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">29259.481</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">33927.838</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">44095.858</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">50553.393513</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">52330.169389</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">65542.64347</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">64740.62589</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_5">
+<ss:Data ss:Type="String">Pemex	3_/ </ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">48.202122</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">111.696</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">107.58203</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_5">
+<ss:Data ss:Type="String">Otros</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">27857.856</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">29147.787</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">33820.257</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">44095.858</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">50553.393513</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">52330.169389</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">65542.64347</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">64740.62589</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_4">
+<ss:Data ss:Type="String">Exportaci贸n</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">.789328</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">.567249</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">.83673</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">1.054125</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">.357004</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">.385714</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">.177237</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">.44619</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_4">
+<ss:Data ss:Type="String">Tenencia</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_4">
+<ss:Data ss:Type="String">Autom贸viles nuevos</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">5869.525</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">6251.684</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">6426.986</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">7244.03</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">9058.25135</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">10702.840746</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">11141.501048</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">10497.393627</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_4">
+<ss:Data ss:Type="String">Impuesto por la Actividad de Exploraci贸n y Extracci贸n de Hidrocarburos.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="even">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="even">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="even">
+<ss:Data ss:Type="String">n.d.</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">3745.659</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">3993.81602</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">4329.592462</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">5470.38798</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">5803.066125</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_4">
+<ss:Data ss:Type="String">Impuesto a los rendimientos Petroleros</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">573.19</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">3210.359</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">4668.735</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">0</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_4">
+<ss:Data ss:Type="String">Otros</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">2260.301</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">1618.119</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">503.581</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">4168.191</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">328.942576</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">280.712476</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">400.058312</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">79.23470044</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_4">
+<ss:Data ss:Type="String">Accesorios</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">24076.995</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">25300.894</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">23716.887</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">23211.151</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">28479.930452</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">32152.590206</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">45863.960294</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">41062.635058</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_3">
+<ss:Data ss:Type="String">Ingresos no tributarios</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">214809.051</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">280272.005</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">299831.479</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">404413.191</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">547141.69037</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">545667.05982</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">267545.45757</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">371533.55799</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_4">
+<ss:Data ss:Type="String">Contribuci贸n de mejoras</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">45.958516</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">43.87913</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">46.312819</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">48.727888</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">47.702072</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">50.764054</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">79.412649</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">54.84445</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_4">
+<ss:Data ss:Type="String">Derechos no petroleros</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">42574.777</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">44107.322</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">45020.753</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">48252.062</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">55605.885419</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">61304.974301</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">64305.749594</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">82996.735858</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="oddNivel_4">
+<ss:Data ss:Type="String">Productos</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">6186.033</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">8044.716</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">5503.706</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">5405.537</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">7712.1219602</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">7830.5318067</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">9808.5951523</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="oddfloat">
+<ss:Data ss:Type="Number">10414.6895782</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="evenNivel_4">
+<ss:Data ss:Type="String">Aprovechamientos</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">166002.28</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">228076.088</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">249260.704</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">350706.864</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">483775.980889</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">476480.788698</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">193351.700166</ss:Data>
+</ss:Cell>
+<ss:Cell ss:StyleID="evenfloat">
+<ss:Data ss:Type="Number">278067.288103</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row>
+<ss:Cell ss:StyleID="notas"/>
+</ss:Row>
+<ss:Row ss:AutoFitHeight="0" ss:Height="40">
+<ss:Cell ss:MergeAcross="8" ss:StyleID="stylecomment">
+<ss:Data ss:Type="String">1_/  Hasta 2014 incluye los derechos sobre hidrocarburos. A partir de 2015 incluye las transferencias del Fondo Mexicano del Petr贸leo para la Estabilizaci贸n y el Desarrollo y el impuesto sobre la renta de contratistas y asignatarios por explotaci贸n de hidrocarburos.</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row ss:AutoFitHeight="0" ss:Height="40">
+<ss:Cell ss:MergeAcross="8" ss:StyleID="stylecomment">
+<ss:Data ss:Type="String">2_/  Los importes negativos corresponden al acreditamiento del est铆mulo fiscale aplicado en las declaraciones de los contribuyentes, que en algunos casos, no se calcul贸 como establece la legislaci贸n fiscal, mientras que, en otros casos, se aplicaron est铆mulos sin tener derecho a ellos, y se rectificaron en los meses subsecuentes. (Ver nota metodol贸gica en http://www.secciones.hacienda.gob.mx/work/models/estadisticas_oportunas/metodologias/IEPS_carbono.pdf)</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row ss:AutoFitHeight="0" ss:Height="40">
+<ss:Cell ss:MergeAcross="8" ss:StyleID="stylecomment">
+<ss:Data ss:Type="String">3_/  A partir de 2015, la informaci贸n relativa al Impuesto sobre importaci贸n de gasolinas, no se puede obtener de los registros contenidos en la informaci贸n fuente referente a la recaudaci贸n de los ingresos presupuestarios; por lo cual, se considera como no disponible.</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row ss:AutoFitHeight="0" ss:Height="40">
+<ss:Cell ss:StyleID="notas">
+<ss:Data ss:Type="String">昧rea: Direcci贸n General de Estad铆stica de la Hacienda P煤blica. Unidad de Planeaci贸n Econ贸mica de la Hacienda P煤blica.</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row ss:AutoFitHeight="0" ss:Height="40">
+<ss:Cell ss:StyleID="notas">
+<ss:Data ss:Type="String">Para mayores detalles sobre la informaci贸n que aparece en este cuadro estad铆stico, favor de contactar al tel茅fono (01) (55) 3688,1441.</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row ss:AutoFitHeight="0" ss:Height="15">
+<ss:Cell ss:StyleID="notas">
+<ss:Data ss:Type="String">Correo electr皿nico:</ss:Data>
+</ss:Cell>
+</ss:Row>
+<ss:Row ss:AutoFitHeight="0" ss:Height="40">
+<ss:Cell ss:StyleID="notas">
+<ss:Data ss:Type="String">
+<a href="mailto:shcp_ehacendaria@hacienda.gob.mx">shcp_ehacendaria@hacienda.gob.mx</a>
+</ss:Data>
+</ss:Cell>
+</ss:Row>
+</ss:Table>
+</ss:Worksheet>
+</ss:Workbook>
